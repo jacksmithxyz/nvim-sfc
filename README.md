@@ -1,6 +1,6 @@
 # nvim-sfc
 
-This is my single file Neovim configuration which consists of ~10 plugins in total, including LSP support in uder 100 lines of code.
+This is my single file Neovim configuration which consists of ~10 plugins in total, including LSP support in under 100 lines of code.
 
 If you want to learn more about the philosophy behind this setup, you can check out [this post](https://jacksmith.xyz/blog/neovim-configuration-one-file-to-rule-them-all/) on it. 
 
