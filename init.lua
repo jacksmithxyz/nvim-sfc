@@ -53,12 +53,6 @@ require'nvim-treesitter.configs'.setup {
     }
 }
 
-require("lspconfig").gopls.setup{}
-require("lspconfig").lua_ls.setup{}
-require("lspconfig").pylsp.setup{}
-require("lspconfig").ruff.setup{}
-require("lspconfig").rust_analyzer.setup {}
-
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
