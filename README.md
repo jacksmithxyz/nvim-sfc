@@ -10,6 +10,5 @@ If you want to learn more about the philosophy behind this setup, you can check 
 2. Open Neovim
 3. Run `:Lazy`, and install/update the packages if needed
 4. Run `:Mason` and install any language servers you need
-5. Add the language servers to your `init.lua` file, e.g. `require("lspconfig").lua_ls.setup{}`, replacing `lua_ls` with the language server you have installed
 
 Now use Neovim!
